@@ -7,11 +7,9 @@ Each Bitcoin is basically a computer file which is stored in a 'digital wallet' 
 
 ## What is Bitcoin trading and how does it work?
 When you trade bitcoin, you never interact directly with an exchange. Instead, you trade on our buy and sell prices, which we source from a number of exchanges on your behalf. In order to take a position on bitcoin's price, then, all you need is an IG trading account.
-<pre>
-</pre>
+
 ![buy and hold HODL (002)](https://user-images.githubusercontent.com/42151354/98458627-d8354180-21b8-11eb-889a-d10b34392d06.png)
-<pre>
-</pre>
+
 ## What moves bitcoin’s(cryptocurrency's)price ?
 1. Bitcoin supply. The current bitcoin supply is capped at 21 million, which is expected to be exhausted by 2140. A finite supply means that the price of bitcoin could increase if demand rises in the coming years
 2. Bad press. Any breaking news which concerns bitcoin’s security, value and longevity will have a negative effect on the coin’s overall market price
