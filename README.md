@@ -1,6 +1,6 @@
 # BitZy
 
-![Web 1920 – 1](https://user-images.githubusercontent.com/42151354/98438309-59d09500-210f-11eb-9305-281b2935ff66.png)
+![Web 1920 – 2](https://user-images.githubusercontent.com/42151354/98458614-973d2d00-21b8-11eb-9184-cebf1be7e5d4.png)
 
 ## What is bitcoin?
 Each Bitcoin is basically a computer file which is stored in a 'digital wallet' app on a smartphone or computer. People can send Bitcoins (or part of one) to your digital wallet, and you can send Bitcoins to other people. Every single transaction is recorded in a public list called the blockchain.
