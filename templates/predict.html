@@ -29,6 +29,7 @@
     
     <!-- Main wrapper  -->
     <div id="main-wrapper">
+        <!-- header header  -->
         <div class="header">
             <nav class="navbar top-navbar navbar-expand-md navbar-light">
                 <!-- Logo -->
@@ -42,43 +43,15 @@
                     </a>
                 </div>
                 <!-- End Logo -->
-                <div class="navbar-collapse">
-                    <!-- toggle and nav items -->
-                    
-                        <!-- Language -->
-                        
-                        <!-- Messages -->
-                        
-                        <!-- End Comment -->
-                        <!-- Messages -->
-                        
-                        <!-- End Messages -->
-                        <!-- Profile -->
-                        
-                    </ul>
-                </div>
-            </nav>
+                <h3 align="center">Howdy,<b>{{name}}</b> :)</h3>
+
         </div>
         <!-- End header header -->
         <!-- Left Sidebar  -->
-        <div class="left-sidebar">
             <!-- Sidebar scroll-->
-            <div class="scroll-sidebar">
-                <!-- Sidebar navigation-->
-                <nav class="sidebar-nav">
-                    <ul id="sidebarnav">
-                        <li class="nav-devider"></li>
-                        <div class="box bg-1">
-                            <form action="/index" method="post">
-                            <button type="submit" class="btn-primary">Dashboard</button>
-                            </form>
-                        </div>
-                      
-                </nav>
+            
                 <!-- End Sidebar navigation -->
-            </div>
             <!-- End Sidebar scroll-->
-        </div>
         <!-- End Left Sidebar  -->
         <!-- Page wrapper  -->
         <div class="page-wrapper">
@@ -139,29 +112,29 @@
                                     <form action="/predict"method="post">
                                         <div class="form-group">
                                            <br> <p class="text-muted m-b-15 f-s-12">Opening Price</p>
-                                            <input type="text" class="form-control input-rounded " placeholder="Type here...(Eg:100)" name="open">
+                                            <input type="text" class="form-control input-rounded " placeholder="Type here...(Eg:100)" name="open" required>
                                         </div>
                                         <div class="form-group">
                                             <p class="text-muted m-b-15 f-s-12">Closing Price</p>
-                                            <input type="text" class="form-control input-rounded" placeholder="Type here...(Eg:100)" name="close">
+                                            <input type="text" class="form-control input-rounded" placeholder="Type here...(Eg:100)" name="close" required>
                                         </div>
                                         <div class="form-group">
                                             <p class="text-muted m-b-15 f-s-12">Highest Price</p>
-                                            <input type="text" class="form-control input-rounded" placeholder="Type here...(Eg:100)" name="high">
+                                            <input type="text" class="form-control input-rounded" placeholder="Type here...(Eg:100)" name="high" required>
                                         </div>
                                         <div class="form-group">
                                             <p class="text-muted m-b-15 f-s-12">Lowest Price</p>
-                                            <input type="text" class="form-control input-rounded" placeholder="Type here...(Eg:100)" name="low" >
+                                            <input type="text" class="form-control input-rounded" placeholder="Type here...(Eg:100)" name="low" required >
                                             
                                         </div>
                                         <div class="form-group">
                                             <p class="text-muted m-b-15 f-s-12">Volume (BTC)</p>
-                                            <input type="text" class="form-control input-rounded" placeholder="Type here...(Eg:100)" name="btc">
+                                            <input type="text" class="form-control input-rounded" placeholder="Type here...(Eg:100)" name="btc" required>
                                             
                                         </div>
                                         <div class="form-group">
                                             <p class="text-muted m-b-15 f-s-12">Volume (Currency)</p>
-                                            <input type="text" class="form-control input-rounded" placeholder="Type here...(Eg:100)" name="currency">
+                                            <input type="text" class="form-control input-rounded" placeholder="Type here...(Eg:100)" name="currency" required>
                                             
                                         </div>
                                         <button type="submit" class="btn btn-primary btn-outline m-b-10 m-l-5">Predict</button><br>
@@ -169,6 +142,11 @@
                                         {{ prediction_text }}
 
                                     </form>
+                                     <div class="box bg-1">
+                            <form action="/home" method="POST">
+                            <button type="submit" class="btn-primary">Return to Dashboard</button>
+                            </form>
+                        </div>
                                 </div>
                             </div>
                         </div>
@@ -178,7 +156,7 @@
                    </div>
             <!-- End Container fluid  -->
             <!-- footer -->
-            <small><footer class="footer"> Credits <a href="https://colorlib.com">Colorlib</a></footer></small>
+           <small> <footer class="footer"> © 2018 All rights reserved. Template designed by <a href="https://colorlib.com">Colorlib</a></footer></small>
             <!-- End footer -->
         </div>
         <!-- End Page wrapper  -->
